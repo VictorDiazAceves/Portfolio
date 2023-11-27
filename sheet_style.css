@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to right, #333, #fff, #333); /* Puedes ajustar los códigos de color según tus preferencias */
+  background-position: center;  /* Ajusta el color del texto según tus preferencias */
+}
+.div{
+  background-color: black;
+}
+
+.center-container {
+  background-color: white;
+  color: black;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  perspective: 1000px; /* Ajusta la perspectiva según tus preferencias */
+}
+
+.content {
+  transform: rotateX(20deg) rotateY(20deg);
+  transition: transform 0.5s ease; /* Añade una transición suave */
+}
+
+.center-container:hover .content {
+  transform: rotateX(0) rotateY(0);
+}
