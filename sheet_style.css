@@ -2,9 +2,7 @@ body {
   background: linear-gradient(to right, #333, #fff, #333); /* Puedes ajustar los códigos de color según tus preferencias */
   background-position: center;  /* Ajusta el color del texto según tus preferencias */
 }
-.div{
-  background-color: black;
-}
+
 
 .center-container {
   background-color: white;
